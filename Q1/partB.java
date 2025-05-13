@@ -1,8 +1,4 @@
-# AP-FRQs-2025
-
-#Solutions written by Maksat Durdymyradov
-
- public int dogWalkShift(int startHour, int endHour){
+public int dogWalkShift(int startHour, int endHour){
     int moneyEarned = 0;
     for(int hour = startHour; hour<= endHour; hour++){
         int dogs = walkDogs(hour);
