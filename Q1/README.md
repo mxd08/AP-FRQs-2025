@@ -4,7 +4,6 @@
 This section contains my analysis of Question 1 (Methods and Control Structures):
 
 #### My initial approach during the exam:
-
 ##### -First, I carefully read the question prompt to understand what was being asked.
 ##### -I identified that I needed to implement two methods: walkDogs(int hour) and dogWalkShift(int startHour, int endHour).
 ##### -I highlighted the existing helper methods:
@@ -15,7 +14,6 @@ This section contains my analysis of Question 1 (Methods and Control Structures)
 
 
 #### My revised solution after review:
-
 ##### -I re-evaluated the logic for the walkDogs method to ensure I was checking if the number of available dogs was less than maxDogs. Instead of walking the full maxDogs every time, I now correctly walk the smaller of the two.
 ##### -I made sure that the updateDogs(hour, number) method is called every time dogs are walked, and that it updates the correct number based on the actual dogs walked.
 ##### -For dogWalkShift, I realized I needed to add money not just based on the number of dogs walked, but also add a bonus if:
@@ -27,7 +25,6 @@ This section contains my analysis of Question 1 (Methods and Control Structures)
 
   
 #### Key concepts tested in this question:
-
 ##### -Using if statements and loops (for loop).
 ##### -Filling in logic within provided method signatures.
 ##### -Correctly utilizing helper methods (numAvailableDogs, updateDogs).
@@ -36,7 +33,6 @@ This section contains my analysis of Question 1 (Methods and Control Structures)
 
 
 #### What I learned from revisiting this problem:
-
 ##### -The importance of reading carefully to distinguish between the helper methods provided and the ones to implement.
 ##### -A methodical approach helps avoid errors like forgetting to call updateDogs.
 ##### -It’s crucial to think through edge cases, such as when available dogs are less than maxDogs.
