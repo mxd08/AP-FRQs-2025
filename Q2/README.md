@@ -38,7 +38,6 @@ This section contains my analysis of Question 2 (Class Design).
 
 ### What I Learned from Revisiting This Problem
 
-- Defensive programming is important — especially validating string lengths before using substring operations.
 - Helper methods like `getSignature()` should be reused inside other methods (`addSignature()`) to avoid code duplication.
 - Edge cases must be tested (e.g., empty strings, duplicates, or reordering logic).
 - Revisiting code with a fresh perspective helps uncover bugs and improve logic clarity.
