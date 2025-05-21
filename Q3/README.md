@@ -42,6 +42,5 @@ This section contains my analysis of Question 3 (Arrays and ArrayLists).
 - Syntax matters: Constructors need the `new` keyword in Java, and all `ArrayList` interactions must be syntactically correct (`get()`, `add()`, etc.).
 - Indexing in Java is zero-based, so careful attention to start and end indexes is important when pairing elements.
 - It’s critical to test both odd and even cases for pairing logic to ensure no out-of-bounds errors or missed matches.
-- Revisiting and rewriting logic after an exam helps solidify understanding and uncover subtle mistakes.
 
 ---
