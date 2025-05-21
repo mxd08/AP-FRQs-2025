@@ -4,7 +4,7 @@
 This section contains my analysis of Question 1 (Methods and Control Structures):
 
 #### My initial approach during the exam:
-#####-First, I carefully read the question prompt to understand what was being asked.
+##### -First, I carefully read the question prompt to understand what was being asked.
 -I identified that I needed to implement two methods: walkDogs(int hour) and dogWalkShift(int startHour, int endHour).
 -I highlighted the existing helper methods:
 -numAvailableDogs(int hour): gives how many dogs are available at a given hour
